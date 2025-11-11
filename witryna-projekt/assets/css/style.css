@@ -1,0 +1,158 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background-color: #faf2de;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: url("../img/background.jpg") center/cover no-repeat;
+  text-align: center;
+  color: white;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 80px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1, h2, h3 {
+  color: #005b96;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #aaa;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #e0f0ff;
+}
+
+footer {
+  background-color: #003d73;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+/* --- Kolor tła: przyciski --- */
+.bg-change {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.bg-change button {
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s ease;
+}
+
+.bg-change button:hover {
+    filter: brightness(1.2);
+}
+
+
+
+header {
+    background-color: #004466;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-home h1,
+.header-sub h2 {
+    margin: 10px 0;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.clock-date-wrapper {
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 500;
+}
