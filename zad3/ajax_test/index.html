@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <button id="btn">Test AJAX</button>
+
+    <script>
+        $("#btn").click(function() {
+            $.post("ajax.php", {test: 1}, function(response){
+                alert("Odpowiedź: " + response);
+            });
+        });
+    </script>
+</body>
+</html>
